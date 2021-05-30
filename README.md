@@ -84,13 +84,19 @@
         </ul>
     </p>
     <p>
-    A entidade é o banco de dados refletido na aplicaćão back-end
+        A entidade é o banco de dados refletido na aplicaćão back-end
     </p>
     <p>
-    Enquanto o DTO tem a responsabilidade de se comunicar com o lado de quem está solicitando a informaćão fazendo uma requisićão
+        <i>DTO</i>: Possui a responsabilidade de se comunicar com o lado de quem está solicitando a informaćão fazendo uma requisićão
     </p>
     <p>
-    O repository camada responsavel com a interaćão do banco de dados. Onde ocorre operaćòes de get, post, put e delete.
+        <i>Repository</i>: Camada responsavel com a interaćão do banco de dados. Onde ocorre operaćòes de get, post, put e delete.
+    </p>
+    <p>
+        <i>Service</i>: Determina o que será chamado com a requisićão, é a camada intermediária e cuida da regra de negócio da aplicaćão.
+    </p>
+    <p>
+        <i>Mapper</i>: Não há como passar puramente o que vem do controller para o service, para a transformaćão do objeto é criado o mapper
     </p>
 </div> 
 </details>

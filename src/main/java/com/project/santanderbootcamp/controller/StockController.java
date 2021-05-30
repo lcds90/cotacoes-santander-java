@@ -1,6 +1,8 @@
 package com.project.santanderbootcamp.controller;
 
 import com.project.santanderbootcamp.model.dto.StockDTO;
+import com.project.santanderbootcamp.service.StockService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,10 +17,14 @@ import java.util.List;
 @RequestMapping(value = "/stock") // Cria uma url para acesso aos endpoints
 public class StockController { // Stock -> termo conhecido de ácoẽs e cotacões do mercado internacional
 
+    // variavel de conexao com service
+    @Autowired // fica a criterio do spring instanciar a service
+    private StockService service;
+
     // Resposta da requisićão com classe do sprint com o próprio DTO que envio.
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE) // consome e retorna json
     public ResponseEntity<StockDTO> save(@Valid @RequestBody StockDTO dto){
-        return ResponseEntity.ok(dto); // Response code 200
+        return ResponseEntity.ok(service.save(dto)); // Response code 200
     }
 
     @PutMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
