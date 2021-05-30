@@ -15,3 +15,7 @@ spring:
     genereate-ddl: false
     hibernate:
       ddl-auto: none
+
+application:
+  description: Projeto criado para o bootcamp Santander Dev Week (DIO)
+  version: 1.0
