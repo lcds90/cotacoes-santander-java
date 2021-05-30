@@ -75,7 +75,24 @@
     No mapeamento do model criamos o <strong>DTO</strong>: Data Transfer Object </p>
     <p>Um arquivo Bean é inicializado junto com o Main quando há anotaćão @Bean</p>
     <p>Para o Swagger UI, acessar o link http://localhost:8080/cotacoes/swagger-ui/</p>
-</div>
+    <h2>Docker</h2>
+    <p>
+        Docker é uma ferramenta que trabalha com containers, compartilha recursos de maquina e cria um mini sistema de pastas, uma maquina apartada dentro do root. Consegue trabalhar com dinamismo, subir microservićos, trabalhar com muitas requisićòes, balanceamento de carga e escalabilidade.
+        <ul>
+            <li><a href="https://docs.docker.com/" target="_blank">Docker Docs</a> </li>
+            <li><a target="_blank" href="hub.docker.com">Hub Docker</a></li>
+        </ul>
+    </p>
+    <p>
+    A entidade é o banco de dados refletido na aplicaćão back-end
+    </p>
+    <p>
+    Enquanto o DTO tem a responsabilidade de se comunicar com o lado de quem está solicitando a informaćão fazendo uma requisićão
+    </p>
+    <p>
+    O repository camada responsavel com a interaćão do banco de dados. Onde ocorre operaćòes de get, post, put e delete.
+    </p>
+</div> 
 </details>
 
 <details>
