@@ -2,6 +2,11 @@
 
 ## Projeto Angular e Java - Tela de cotações
 
+<p align="center">
+<a href="https://lcds-cotacoes-santander.herokuapp.com/cotacoes/swagger-ui.html" target="_blank">API</a>
+| <a href="https://github.com/lcds90/cotacoes-santander-java" target="_blank">Repositorio Back-End (Java)</a>
+</p>
+
 <details>
     <summary>Back-End</summary>
     <div>
