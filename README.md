@@ -1,6 +1,6 @@
 # Tela de cotações - Back-End em Java
 
-> Bootcamp 🚀 = Santader Dev Week
+> 🚀 Santader Dev Week 🚀
 
 O projeto consiste em um sistema de API de cadastro de cotação do mercado financeiro, neste repositório se encontra a parte back-end com a possibilidade de realizar as requisições através do swagger ui.
 <hr>
@@ -14,13 +14,14 @@ O projeto consiste em um sistema de API de cadastro de cotação do mercado fina
  </a>
 </div>
 <hr>
-<details align=center>
+<details>
     <summary>Links</summary>
-    <p>
-        <a href="https://lcds-cotacoes-santander.herokuapp.com/cotacoes/swagger-ui.html" rel="noopener">API</a>
-        <hr>
-        <a href="https://github.com/lcds90/cotacoes-santander-java" rel="noopener">Repositorio API</a>
-    </p>
+<p>
+<a href="https://lcds-cotacoes-santander.herokuapp.com/cotacoes/swagger-ui.html" target="_blank">API</a><br>
+<a href="https://lcds90.github.io/cotacoes-santander-ng/dashboard" target="_blank">Aplicação</a><br>
+<a href="https://github.com/lcds90/cotacoes-santander-java" target="_blank">Repositorio Back-End (Java)</a><br>
+<a href="https://github.com/lcds90/cotacoes-santander-ng" target="_blank">Repositorio Front-End (Angular)</a>
+</p>
 </details>
 
 <details>
